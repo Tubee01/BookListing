@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/search"
+        style="@style/searchLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/search_field"
+            style="@style/searchField"
+            android:hint="@string/search_hint" />
+
+        <Button
+            android:id="@+id/search_button"
+            style="@style/searchButton" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        style="@style/line" />
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/listView" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/emptyText" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/progressBar" />
+
+</RelativeLayout>
+    
