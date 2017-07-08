@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements android.app.Loade
 
         {
             @Override
-            public void onClick(View view) { 
+            public void onClick(View view) {
                 String keyWord = searchTextView.getText().toString().trim();
 
                 keyWord = keyWord.replaceAll(" +", "+");
